@@ -1,8 +1,7 @@
 .nav {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  padding: 0 100px;
+  justify-content: center;
 }
 
 .nav-logo {
@@ -12,13 +11,28 @@
 .nav-links {
   display: flex;
   list-style: none;
-  padding: 60px 20px;
+  padding: 0px;
 }
 
-.nav-links li {
-  padding: 0 20px;
-  font-size: 20px;
+.nav-links li{
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
+
+.nav-links li:nth-child(1) a{
+  width: 150px;
+  padding-right: 5px;
+  text-align: right;
+}
+
+.nav-links li:nth-child(3) { 
+  width: 150px;
+  padding-left: 5px;
+  text-align: center;
+}
+
 
 .nav-links li a {
   color: #000;
