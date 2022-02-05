@@ -1,7 +1,5 @@
 import React from "react";
 import "./Info.css";
-import food_waste_info from "./food_waste_info.jpg";
-import fast_fashion_info from "./fast_fashion_info.jpg";
 
 function Info() {
   return (
