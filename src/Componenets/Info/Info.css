@@ -89,6 +89,7 @@ border-color: #6c757d !important;
 
 /* CUSTOM */
 .outmost-container{
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -140,10 +141,4 @@ border-color: #6c757d !important;
 
 .info-btn-div button {
     margin: 0.5em;
-}
-
-
-/* DONATE */
-.donate-container {
-    padding-top: 10vh;
 }

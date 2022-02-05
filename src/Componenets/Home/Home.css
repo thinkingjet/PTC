@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Ribeye&display=swap");
+
+.home-img {
+  width: 100%;
+  text-align: center;
+}
+
+.home-img_heading {
+  color: #ff5733;
+  margin-top: 40px;
+  font-size: 40px;
+}
+
+.home-img_subtitle_line {
+  color: #ff2f00;
+  margin-top: 5px;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.home-img_quote {
+  color: #381a13;
+  margin-top: 70px;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.home-img_author {
+  padding-left: 30%;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.home-btns {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.home-btn {
+  margin: 0 20px;
+  padding: 20px 20px;
+  border: 0;
+  color: #fff;
+  background: #cc482a;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 150px;
+}
+
+.home-btn:hover {
+  background: #e25232;
+}
+
+.home-btn-1 {
+  background-color: #242323;
+}
+
+.home-btn-1:hover {
+  background-color: #000000;
+}
