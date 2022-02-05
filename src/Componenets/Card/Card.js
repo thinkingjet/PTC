@@ -7,16 +7,15 @@ import blood_donation_info from './blood_donation_info.jpg';
 function Card() {
   return (
       <>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
         <div class="card-container">	               
             <div class="product-details">                   
                 <h1>Fast Fashion</h1>
                 <p class="information">information</p>         
                 <div class="control">            
-                    <button class="btn">
+                    <button class="form-btn">
                         <span class="buy">Read More</span>
                     </button>  
-                    <button class="btn">
+                    <button class="form-btn">
                         <span class="buy">Donate</span>
                     </button>   
                 </div>      
@@ -40,10 +39,10 @@ function Card() {
                 <h1>Food Waste</h1>
                 <p class="information">information</p>         
                 <div class="control">            
-                    <button class="btn">
+                    <button class="form-btn">
                         <span class="buy">Read More</span>
                     </button>  
-                    <button class="btn">
+                    <button class="form-btn">
                         <span class="buy">Donate</span>
                     </button>   
                 </div>      
@@ -67,10 +66,10 @@ function Card() {
                 <h1>Blood Donation</h1>
                 <p class="information">information</p>         
                 <div class="control">            
-                    <button class="btn">
+                    <button class="form-btn">
                         <span class="buy">Read More</span>
                     </button>  
-                    <button class="btn">
+                    <button class="form-btn">
                         <span class="buy">Donate</span>
                     </button>   
                 </div>      

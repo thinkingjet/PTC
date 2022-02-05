@@ -11,7 +11,7 @@ function Form() {
 		</header>
 
 		<div class="d-flex w-100 justify-center align-center parallax">
-			<div class="container d-flex flex-col justify-center align-center">
+			<div class="form-container d-flex flex-col justify-center align-center">
 				<form action="/" method="post" id="signUp">
 					<fieldset class="form d-flex flex-col align-start">
 

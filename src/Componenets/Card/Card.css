@@ -63,7 +63,7 @@
 	bottom: 20%;
 	width: 150%;
 }
-.btn {
+.form-btn {
 
 	transform: translateY(0px);
 	transition: 0.3s linear;
@@ -80,10 +80,10 @@
 	
 }
 
-.btn:hover{transform: translateY(-6px);
+.form-btn:hover{transform: translateY(-6px);
 	background: #1a66ff;}
 
-.btn span {
+.form-btn span {
 	font-family: 'Farsan', cursive;
 	transition: transform 0.3s;
 	display: inline-block;
@@ -92,17 +92,17 @@
 	margin:0;
 	
 }
-.btn .price, .shopping-cart{
+.form-btn .price, .shopping-cart{
 	background: #333;
 	border: 0;
 	margin: 0;
 }
 
-.btn .price {
+.form-btn .price {
 	transform: translateX(-10%); padding-right: 15px;
 }
 
-.btn .shopping-cart {
+.form-btn .shopping-cart {
 	transform: translateX(-100%);
   position: absolute;
 	background: #333;
@@ -111,11 +111,11 @@
   top: 0;
 }
 
-.btn .buy {z-index: 3; font-weight: bolder;}
+.form-btn .buy {z-index: 3; font-weight: bolder;}
 
-.btn:hover .price {transform: translateX(-110%);}
+.form-btn:hover .price {transform: translateX(-110%);}
 
-.btn:hover .shopping-cart {transform: translateX(0%);}
+.form-btn:hover .shopping-cart {transform: translateX(0%);}
 
 
 
