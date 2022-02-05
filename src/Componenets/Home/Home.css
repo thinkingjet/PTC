@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Ribeye&display=swap");
+
+.home {
+  padding-top: 20px;
+}
+
+.home-img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.home-img_heading {
+  font-family: "Ribeye", cursive;
+  padding: 200px 0;
+  font-size: 40px;
+  color: rgb(31, 30, 29);
+  opacity: 1;
+}
