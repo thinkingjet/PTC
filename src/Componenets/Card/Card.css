@@ -7,8 +7,8 @@
 	border-radius: 5px;
 	overflow: hidden;
 	margin: 5em auto;
-	height: 430px;
-	width: 1500px;	
+	height: 350px;
+	width: 1200px;	
 }
 
 .product-details {
@@ -138,7 +138,7 @@
     transition: all 0.3s ease-out;
     transform: translateX(-100%);
     position: absolute;
-    line-height: 3;
+    line-height: 2.5;
     text-align: left;
     font-size: 105%;
     cursor: no-drop;
@@ -149,7 +149,7 @@
     top: 0;
 }
 
-.info h2 {text-align: center; margin-top: 50px;}
+.info h2 {text-align: center; margin-top: 30px;}
 .product-image:hover .info{transform: translateX(0);}
 
 .info ul {margin-left: 60px;}
