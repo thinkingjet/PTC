@@ -1,16 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Ribeye&display=swap");
 
-.home {
-  padding-top: 20px;
-}
-
 .home-img {
   width: 100%;
   text-align: center;
 }
 
 .home-img_heading {
-  padding-top: 20vh;
   color: #ff5733;
   margin-top: 40px;
   font-size: 40px;
@@ -50,7 +45,7 @@
   background: #cc482a;
   font-size: 20px;
   cursor: pointer;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .home-btn:hover {
