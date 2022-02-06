@@ -1,5 +1,6 @@
 import React from "react";
 import "./Card.css";
+import { Link } from "react-router-dom";
 import fast_fashion_info from "./fast_fashion_info.jpg";
 import food_waste_info from "./food_waste_info.jpg";
 import blood_donation_info from "./blood_donation_info.jpg";
@@ -17,8 +18,11 @@ function Card() {
               <button className="form-btn form-btn-1" href="#rm-fast-fashion">
                 <span className="buy">Read More</span>
               </button>
-              <button className="form-btn form-btn-2">
-                <span className="buy">Donate</span>
+ 
+              <button class="form-btn form-btn-2">
+                <Link to="/contribute/clothes">
+                  <span class="buy">Donate</span>
+                </Link>
               </button>
             </div>
           </div>
@@ -62,8 +66,12 @@ function Card() {
             <button className="form-btn form-btn-1">
               <span className="buy">Read More</span>
             </button>
-            <button className="form-btn form-btn-2">
-              <span className="buy">Donate</span>
+
+            <button class="form-btn form-btn-2">
+              <Link to="/contribute/food">
+                <span class="buy">Donate</span>
+              </Link>
+
             </button>
           </div>
         </div>
@@ -95,8 +103,12 @@ function Card() {
             <button className="form-btn form-btn-1">
               <span className="buy">Read More</span>
             </button>
-            <button className="form-btn form-btn-2">
-              <span className="buy">Donate</span>
+
+            <button class="form-btn form-btn-2">
+              <Link to="/contribute/blood">
+                <span class="buy">Donate</span>
+              </Link>
+
             </button>
           </div>
         </div>
