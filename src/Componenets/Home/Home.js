@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";
 import Article from "../Article/Article";
-//import Card from "../Card/Card";
 import Info from "../Info/Info";
 import Donate from "../Donate/Donate";
 import Solution from "../Solution/Solution";

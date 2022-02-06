@@ -1,11 +1,11 @@
 .article-container {
   height: 75vh;
   overflow: hidden;
-  margin: 10px;
+
   padding: 0;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 98%;
+  width: 100%;
 }
 
 .article-container h1 {
@@ -28,9 +28,8 @@
 
 .article-img {
   width: 50%;
-  height:  98%;
+  height: 98%;
 }
-
 
 /* BUTTONS */
 a[class*="box"] {
