@@ -15,7 +15,7 @@ function Card() {
             <h1>Fast Fashion</h1>
             <p className="information">Fast Fashion describes cheap and trendy clothing. Much of it is based on current trends and celebrities, as well as pop culture. Because of this, fast fashion is produced, pushed out into stores, and discarded quickly. </p>
             <div className="control">
-              <button className="form-btn form-btn-1" href="#rm-fast-fashion">
+              <button className="form-btn form-btn-1" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 <span className="buy">Read More</span>
               </button>
  
@@ -45,16 +45,22 @@ function Card() {
             </div>
           </div>
         </div>
-        <div className="two" id="rm-fast-fashion">
-          <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
-          </p>
+      </div>
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -63,7 +69,7 @@ function Card() {
           <h1>Food Waste</h1>
           <p className="information">Food waste is the loss of edible food due to incidents such as spoilage, waste, or exposure to chemicals. This makes these food items unsafe to eat, even though they could been redistributed for nourishment. </p>
           <div className="control">
-            <button className="form-btn form-btn-1">
+            <button className="form-btn form-btn-1" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
               <span className="buy">Read More</span>
             </button>
 
@@ -100,7 +106,7 @@ function Card() {
           <p className="information">Blood donation is a voluntary procedure performed by a qualified 
           medical professional on an individual to extract blood and its contents. This blood is packaged and used for vital procedures such as transfusions or the development of medication. </p>
           <div className="control">
-            <button className="form-btn form-btn-1">
+            <button className="form-btn form-btn-1" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
               <span className="buy">Read More</span>
             </button>
 

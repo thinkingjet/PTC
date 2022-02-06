@@ -24,8 +24,8 @@ function Home() {
         </div>
       </div>
       <Card />
-      <Article />
       <Donate />
+      <Article />
       <Solution />
       <Footer />
     </>
