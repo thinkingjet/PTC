@@ -11,15 +11,13 @@ function Home() {
     <>
       <div className="home">
         <div className="home-img">
-          <h2 className="home-img_heading heading">
-            Change Lives
-            <br /> Save Lives
-          </h2>
+          <h2 className="home-img_heading heading">Change Lives Save Lives</h2>
           <hr className="underline"></hr>
-          <p>Help us change and save lives through sustainable recycling</p>
+          <p className="subtitle">
+            Help us change and save lives through sustainable recycling
+          </p>
         </div>
         <div className="home-btns">
-          <button className="home-btn">About Us</button>
           <button className="home-btn home-btn-1">How to contribute</button>
         </div>
       </div>
