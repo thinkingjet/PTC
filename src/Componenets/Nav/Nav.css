@@ -1,0 +1,44 @@
+.nav {
+  /* background: linear-gradient(#dbddf8,#a8f2ff); */
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(29, 27, 27, 0.815);
+  z-index: 200;
+}
+
+.nav-logo {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 40px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+.nav-links li {
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+.auth {
+  font-size: 20px;
+  display: flex;
+  margin-right: 30px;
+}
+
+.auth a {
+  color: #fff;
+  margin-right: 23px;
+}
+
+.nav-links li a {
+  color: #fff;
+}
