@@ -5,66 +5,48 @@ function Info() {
   return (
         <div class="accordion-container">
             <div class="accordion-wrap">
-                <a class="accordion">
+                <div class="accordion">
                     <div class="teaser">
-                        <div class="time">
-                            <h5>10:15 – 11:00 Uhr</h5>
-                        </div>
                         <div class="title">
-                            <h3>Unterthema Y</h3>
-                            <h6 class="theme">Themenblock 4</h6>
+                            <h3>Fast Fashion</h3>
+                            <a><h7>(click here to donate)</h7></a>
                         </div>
                     </div>
-                    <div class="collapse" id="collapseOne">
+                    <div id="collapseOne">
                         <div class="content">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            Fast Fashion describes cheap and trendy clothing. Much of it is based on current trends and celebrities, as well as pop culture. Because of this, fast fashion is produced, pushed out into stores, and discarded quickly.
                         </div>
                     </div>   
-                    <div class="accordion-toggle">
-                        <span class="one"></span>
-                        <span class="two"></span>
-                    </div>
-                </a>
-                <a class="accordion" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" >
+                </div>
+                
+                <div class="accordion">
                     <div class="teaser">
-                        <div class="time">
-                            <h5>10:15 – 11:00 Uhr</h5>
-                        </div>
                         <div class="title">
-                            <h3>Unterthema Y</h3>
-                            <h6 class="theme">Themenblock 4</h6>
+                            <h3>Food Waste</h3>
+                            <a><h7>(click here to donate)</h7></a>
                         </div>
                     </div>     
-                    <div class="collapse" id="collapseTwo">
+                    <div id="collapseTwo">
                         <div class="content">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            Food waste is the loss of edible food due to incidents such as spoilage, waste, or exposure to chemicals. This makes these food items unsafe to eat, even though they could been redistributed for nourishment. 
                         </div>
                     </div>   
-                    <div class="accordion-toggle">
-                        <span class="one"></span>
-                        <span class="two"></span>
-                    </div>
-                </a>
-                <a class="accordion" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" >
+                </div>
+
+                <div class="accordion">
                     <div class="teaser">
-                        <div class="time">
-                            <h5>10:15 – 11:00 Uhr</h5>
-                        </div>
                         <div class="title">
-                            <h3>Unterthema Y</h3>
-                            <h6 class="theme">Themenblock 4</h6>
+                            <h3>Blood Donation</h3>
+                            <a><h7>(click here to donate)</h7></a>
                         </div>
                     </div>          
-                    <div class="collapse" id="collapseThree">
+                    <div id="collapseThree">
                         <div class="content">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            Blood donation is a voluntary procedure performed by a qualified 
+                            medical professional on an individual to extract blood and its contents. This blood is packaged and used for vital procedures such as transfusions or the development of medication. 
                         </div>
                     </div>           
-                    <div class="accordion-toggle">
-                        <span class="one"></span>
-                        <span class="two"></span>
-                    </div>
-                </a>
+                </div>
             </div>
         </div>
     );
