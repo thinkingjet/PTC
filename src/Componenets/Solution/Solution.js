@@ -10,7 +10,7 @@ function Solution() {
           <figure class="solution-card__thumb">
             <img
               src="https://raw.githubusercontent.com/thinkingjet/PTC/dev/src/Componenets/Solution/blood_donate.jpeg"
-              alt="Picture by Kyle Cottrell"
+              alt="by Kyle Cottrell"
               class="solution-card__image"
             ></img>
             <figcaption class="solution-card__caption">
@@ -35,7 +35,7 @@ function Solution() {
           <figure class="solution-card__thumb">
             <img
               src="https://raw.githubusercontent.com/thinkingjet/PTC/dev/src/Componenets/Solution/food_waste.jpeg"
-              alt="Picture by Nathan Dumlao"
+              alt="by Nathan Dumlao"
               class="solution-card__image"
             ></img>
             <figcaption class="solution-card__caption">
@@ -60,7 +60,7 @@ function Solution() {
           <figure class="solution-card__thumb">
             <img
               src="https://raw.githubusercontent.com/thinkingjet/PTC/dev/src/Componenets/Solution/fast_fashion.jpeg"
-              alt="Picture by Daniel Lincoln"
+              alt=" by Daniel Lincoln"
               class="solution-card__image"
             ></img>
             <figcaption class="solution-card__caption">
