@@ -1,6 +1,7 @@
 import React from "react";
 import "./Donate.css";
 import billgates from './billgates.jpg'
+import rickastley from './rickastley.png'
 
 function Donate() {
   return (
@@ -27,13 +28,13 @@ function Donate() {
           </div>
           <div class="col-md-6 col-lg-3 mb-5">
             <div class="person-donate text-center bg-light pt-4">
-              <img src={billgates} alt="Image placeholder" class="img-fluid" data-pagespeed-url-hash="4129502088" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></img>
+              <img src={rickastley} alt="Image placeholder" class="img-fluid" data-pagespeed-url-hash="4129502088" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></img>
               <div class="donate-info">
-                <h2>Bill Gates</h2>
+                <h2>Rick Astley</h2>
                 <span class="time d-block mb-3">Donated 3 hours ago</span>
                 <div class="donate-amount d-flex">
                   <div class="label">Donated</div>
-                  <div class="amount">$150</div>
+                  <div class="amount">&#8734;</div>
                 </div>
               </div>
             </div>
