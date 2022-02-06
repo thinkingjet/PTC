@@ -25,6 +25,11 @@
   font-family: "Amaranth", sans-serif;
 }
 
+.home-img p {
+  color:white;
+  padding-top:50px;
+}
+
 hr:not([size]) {
   height: 4 px;
 }

@@ -18,7 +18,7 @@ function Nav() {
           </a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#">Donate</a>
         </li>
       </ul>
     </nav>

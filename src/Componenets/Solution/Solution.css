@@ -15,7 +15,6 @@
 }
 .solution-card {
   width: 400px;
-  height: 680px;
   margin: 20px;
   background-color: white;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
@@ -31,7 +30,7 @@
   top: 0;
 }
 .solution-card:hover .solution-card__snippet {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 .solution-card__thumb {
   position: relative;
@@ -81,7 +80,7 @@
 }
 @media (min-width: 1024px) {
   .solution-card__caption {
-    top: calc(100% - 110px);
+    top: calc(100% - 90px);
     transform: unset;
   }
 }
