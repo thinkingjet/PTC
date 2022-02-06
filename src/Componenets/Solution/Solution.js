@@ -9,7 +9,7 @@ import food_waste from './food_waste.jpeg'
 function Solution() {
   return (
     <div className="solution-container">
-      <h1>Our Solutions</h1>
+      <h1>What We Do</h1>
       <div className="solution-card-container container-fluid d-flex justify-content-center">
         <div class="solution-card">
           <figure class="solution-card__thumb">
