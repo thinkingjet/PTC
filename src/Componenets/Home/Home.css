@@ -1,7 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Ribeye&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Roboto:wght@100;300;400;500;700&display=swap");
 
 .home {
-  height: 600px;
+  background-image: linear-gradient(
+      45deg,
+      rgba(185, 6, 6, 0.5),
+      rgba(185, 6, 6, 0.5)
+    ),
+    url("../../../public/images/home.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
 }
 
 .home-img {
@@ -10,46 +19,40 @@
 }
 
 .home-img_heading {
-  color: #ff5733;
-  margin-top: 40px;
+  color: #ffff;
+  padding-top: 50px;
   font-size: 40px;
+  font-family: "Amaranth", sans-serif;
 }
 
-.home-img_subtitle_line {
-  color: #ff2f00;
-  margin-top: 5px;
-  font-size: 30px;
-  font-weight: 200;
+hr:not([size]) {
+  height: 4 px;
 }
 
-.home-img_quote {
-  color: #381a13;
-  margin-top: 70px;
-  font-size: 30px;
-  font-weight: 200;
-}
-
-.home-img_author {
-  padding-left: 30%;
-  padding-top: 10px;
-  font-size: 20px;
-  font-weight: 300;
+.underline {
+  max-width: 150px;
+  height: 5px;
+  margin: auto;
+  color: #fff;
+  opacity: 0.9;
+  margin-top: 40px;
 }
 
 .home-btns {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .home-btn {
-  margin: 0 20px;
-  padding: 20px 20px;
+  margin: 0 70px;
+  padding: 10px 20px;
   border: 0;
-  color: #fff;
-  background: rgb(78, 68, 68);
-  font-size: 20px;
+  color: #080808;
+  background: #fff;
+  font-size: 15px;
   cursor: pointer;
-  margin-bottom: 150px;
+  margin-bottom: 70px;
+  border-radius: 1px;
 }
 
 .home-btn:hover {
@@ -58,6 +61,7 @@
 
 .home-btn-1 {
   background-color: #dc602e;
+  color: #fff;
 }
 
 .home-btn-1:hover {

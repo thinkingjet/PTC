@@ -6,23 +6,19 @@ function Nav() {
     <nav className="nav">
       <ul className="nav-links">
         <li>
-          <a href="https://raw.githubusercontent.com/thinkingjet/PTC/dev/public/images/logo.png">
-            About
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://raw.githubusercontent.com/thinkingjet/PTC/dev/public/images/logo.png"
+              alt="img"
+              className="nav-logo"
+            />
           </a>
         </li>
         <li>
-          <a href="https://raw.githubusercontent.com/thinkingjet/PTC/dev/public/images/logo.png">
-          <img
-            src="https://raw.githubusercontent.com/thinkingjet/PTC/dev/public/images/logo.png"
-            alt="img"
-            className="nav-logo"
-          />
-          </a>
-        </li>
-        <li>
-          <a href="https://raw.githubusercontent.com/thinkingjet/PTC/dev/public/images/logo.png">
-            Contact
-          </a>
+          <a href="#">Contact</a>
         </li>
       </ul>
     </nav>
