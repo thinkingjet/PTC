@@ -15,7 +15,7 @@ function Donate() {
             <div class="person-donate text-center bg-light pt-4">
               <img
                 src="https://raw.githubusercontent.com/thinkingjet/PTC/dev/src/Componenets/Donate/billgates.jpg"
-                alt="Image placeholder"
+                alt="bill"
                 class="img-fluid"
                 data-pagespeed-url-hash="3835002167"
                 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
@@ -34,7 +34,7 @@ function Donate() {
             <div class="person-donate text-center bg-light pt-4">
               <img
                 src="https://raw.githubusercontent.com/thinkingjet/PTC/dev/src/Componenets/Donate/rickastley.png"
-                alt="Image placeholder"
+                alt="bill"
                 class="img-fluid"
                 data-pagespeed-url-hash="4129502088"
                 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
@@ -53,7 +53,7 @@ function Donate() {
             <div class="person-donate text-center bg-light pt-4">
               <img
                 src="https://raw.githubusercontent.com/thinkingjet/PTC/dev/src/Componenets/Donate/billgates.jpg"
-                alt="Image placeholder"
+                alt="ash"
                 class="img-fluid"
                 data-pagespeed-url-hash="4129502088"
                 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
@@ -72,7 +72,7 @@ function Donate() {
             <div class="person-donate text-center bg-light pt-4">
               <img
                 src="https://raw.githubusercontent.com/thinkingjet/PTC/dev/src/Componenets/Donate/billgates.jpg"
-                alt="Image placeholder"
+                alt="bill"
                 class="img-fluid"
                 data-pagespeed-url-hash="4129502088"
                 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"

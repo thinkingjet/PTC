@@ -5,6 +5,7 @@ function Blood() {
   return (
     <div className="form">
       <iframe
+        title="food"
         src="https://docs.google.com/forms/d/e/1FAIpQLSeqiD1-0ZpN-YQIgAGTSHml8ACHY1aYh-weYd2IdRQvHvFU_w/viewform?embedded=true"
         width="640"
         height="500"

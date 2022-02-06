@@ -7,6 +7,7 @@ function Article() {
       <img
         className="article-img"
         src="https://raw.githubusercontent.com/thinkingjet/PTC/dev/src/Componenets/Article/img.jpg"
+        alt="bill"
       ></img>
       <div className="article-info-container">
         <div className="article-inner-container">

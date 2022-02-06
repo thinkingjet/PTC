@@ -5,6 +5,7 @@ function Contribute() {
   return (
     <div className="form">
       <iframe
+        title="clothes"
         src="https://docs.google.com/forms/d/e/1FAIpQLSfkpAopUUnw-SfMR1YbNLt_WmegcSYrWE0yOjmt7t24URdFZw/viewform?embedded=true"
         width="640"
         height="500"
