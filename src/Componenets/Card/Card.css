@@ -152,7 +152,6 @@ a:hover {
   position: relative;
   overflow: hidden;
   height: 100%;
-  float: right;
   width: 45%;
   display: inline-block;
 }
