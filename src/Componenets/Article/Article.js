@@ -4,7 +4,10 @@ import "./Article.css";
 function Article() {
   return (
     <div className="article-container container-fluid d-flex justify-content-center">
-      <h1 className="w-100">Responsible Production and Consumption</h1>
+      <h1 className="w-100">
+        Learn More About <br />
+        Responsible Production and Consumption
+      </h1>
       <h4 className="home-img_quote">
         Nature Provides A Free Lunch But Only If We <br /> Control Our Appetites
       </h4>

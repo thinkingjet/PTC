@@ -1,5 +1,5 @@
 .article-container {
-  height: 90vh;
+  height: 75vh;
   overflow: hidden;
   margin: 0;
   flex-direction: column;
@@ -14,7 +14,7 @@
   position: relative;
   text-align: center;
   color: white;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 /* BUTTONS */
