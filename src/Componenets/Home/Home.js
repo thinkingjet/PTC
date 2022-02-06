@@ -16,7 +16,6 @@ function Home() {
             <br /> Save Lives
           </h2>
           <hr className="underline"></hr>
-          <p>Help us change and save lives through sustainable recycling</p>
         </div>
         <div className="home-btns">
           <button className="home-btn">About Us</button>
