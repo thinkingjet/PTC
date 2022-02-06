@@ -21,7 +21,7 @@ function Footer() {
                     <a href=""><li class="list-inline-item">Terms</li></a>
                     <a href=""><li class="list-inline-item">Privacy Policy</li></a>
                 </ul>
-                <p class="copyright">LLL Earth © 2021</p>
+                <p class="copyright">cL © 2022</p>
             </footer>
         </div>
     </>
