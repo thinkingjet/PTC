@@ -1,7 +1,5 @@
 import React from "react";
 import "./Donate.css";
-import billgates from './billgates.jpg'
-import rickastley from './rickastley.png'
 
 function Donate() {
   return (
@@ -15,7 +13,13 @@ function Donate() {
         <div class="row">
           <div class="col-md-6 col-lg-3 mb-5">
             <div class="person-donate text-center bg-light pt-4">
-              <img src={billgates} alt="Image placeholder" class="img-fluid" data-pagespeed-url-hash="3835002167" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></img>
+              <img
+                src="https://raw.githubusercontent.com/thinkingjet/PTC/dev/src/Componenets/Donate/billgates.jpg"
+                alt="Image placeholder"
+                class="img-fluid"
+                data-pagespeed-url-hash="3835002167"
+                onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+              ></img>
               <div class="donate-info">
                 <h2>Bill Gates</h2>
                 <span class="time d-block mb-3">Donated 1 hours ago</span>
@@ -28,7 +32,13 @@ function Donate() {
           </div>
           <div class="col-md-6 col-lg-3 mb-5">
             <div class="person-donate text-center bg-light pt-4">
-              <img src={rickastley} alt="Image placeholder" class="img-fluid" data-pagespeed-url-hash="4129502088" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></img>
+              <img
+                src="https://raw.githubusercontent.com/thinkingjet/PTC/dev/src/Componenets/Donate/rickastley.png"
+                alt="Image placeholder"
+                class="img-fluid"
+                data-pagespeed-url-hash="4129502088"
+                onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+              ></img>
               <div class="donate-info">
                 <h2>Rick Astley</h2>
                 <span class="time d-block mb-3">Donated 3 hours ago</span>
@@ -41,7 +51,13 @@ function Donate() {
           </div>
           <div class="col-md-6 col-lg-3 mb-5">
             <div class="person-donate text-center bg-light pt-4">
-              <img src={billgates} alt="Image placeholder" class="img-fluid" data-pagespeed-url-hash="4129502088" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></img>
+              <img
+                src="https://raw.githubusercontent.com/thinkingjet/PTC/dev/src/Componenets/Donate/billgates.jpg"
+                alt="Image placeholder"
+                class="img-fluid"
+                data-pagespeed-url-hash="4129502088"
+                onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+              ></img>
               <div class="donate-info">
                 <h2>Bill Gates</h2>
                 <span class="time d-block mb-3">Donated 5 hours ago</span>
@@ -54,7 +70,13 @@ function Donate() {
           </div>
           <div class="col-md-6 col-lg-3 mb-5">
             <div class="person-donate text-center bg-light pt-4">
-              <img src={billgates} alt="Image placeholder" class="img-fluid" data-pagespeed-url-hash="4129502088" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></img>
+              <img
+                src="https://raw.githubusercontent.com/thinkingjet/PTC/dev/src/Componenets/Donate/billgates.jpg"
+                alt="Image placeholder"
+                class="img-fluid"
+                data-pagespeed-url-hash="4129502088"
+                onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
+              ></img>
               <div class="donate-info">
                 <h2>Bill Gates</h2>
                 <span class="time d-block mb-3">Donated 6 hours ago</span>
@@ -68,7 +90,7 @@ function Donate() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Donate;

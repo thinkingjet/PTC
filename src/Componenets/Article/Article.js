@@ -1,11 +1,13 @@
 import React from "react";
 import "./Article.css";
-import article_img from "./img.jpg";
 
 function Article() {
   return (
     <div className="article-container container-fluid d-flex justify-content-center">
-      <img className="article-img" src={article_img}></img>
+      <img
+        className="article-img"
+        src="https://raw.githubusercontent.com/thinkingjet/PTC/dev/src/Componenets/Article/img.jpg"
+      ></img>
       <div className="article-info-container">
         <div className="article-inner-container">
           <h1 className="w-100">

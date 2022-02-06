@@ -6,7 +6,7 @@
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/public/images/home.jpg");
+    url("https://raw.githubusercontent.com/thinkingjet/PTC/dev/public/images/home.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -9,6 +9,10 @@
   color: #fff;
 }
 
+a {
+  color: white;
+}
+
 .accordion-wrap {
   width: 100%;
   display: flex;

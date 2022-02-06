@@ -1,33 +1,34 @@
 import React from "react";
 import "./Nav.css";
+import { Link } from "react-router-dom";
 
 function Nav() {
   return (
     <nav className="nav">
       <div>
-        <a href="#" className="nav-logo">
+        <Link to="/" className="nav-logo">
           cL
-        </a>
+        </Link>
       </div>
       <div>
         <ul className="nav-links">
           <li>
-            <a href="#">About</a>
+            <Link to="/">About</Link>
           </li>
           <li>
-            <a href="#">Contribute</a>
+            <Link to="/">Contribute</Link>
           </li>
           <li>
-            <a href="#">Donate</a>
+            <Link to="/">Donate</Link>
           </li>
         </ul>
       </div>
       <div className="auth">
         <li>
-          <a href="#">Login</a>
+          <Link to="/">Login</Link>
         </li>
         <li>
-          <a href="#">Signup</a>
+          <Link to="/">Signup</Link>
         </li>
       </div>
     </nav>
