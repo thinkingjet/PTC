@@ -27,6 +27,14 @@
   float: left;
 }
 
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
+
 .card-container .product-details h1 {
   font-family: "Bebas Neue", cursive;
   display: inline-block;
