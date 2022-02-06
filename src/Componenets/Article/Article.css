@@ -1,36 +1,50 @@
 .article-container {
   height: 75vh;
   overflow: hidden;
-  margin: 0;
+  margin: 10px;
+  padding: 0;
   flex-direction: column;
   flex-wrap: wrap;
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #dc602e;
+  width: 98%;
 }
 
 .article-container h1 {
   position: relative;
-  text-align: center;
   color: white;
   font-weight: 400;
 }
+
+.article-info-container {
+  width: 50%;
+  height: 98%;
+  background-color: #d9a364;
+  /* #d95b4f, #83d1da, #d9a364 */
+}
+
+.article-inner-container {
+  margin-top: 20%;
+  margin-left: 5%;
+}
+
+.article-img {
+  width: 50%;
+  height:  98%;
+}
+
 
 /* BUTTONS */
 a[class*="box"] {
   width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 .article-btn {
-  line-height: 75px;
-  height: 75px;
+  line-height: 60px;
+  height: 60px;
   text-align: center;
-  width: 300px;
+  width: 200px;
   cursor: pointer;
   font-size: large;
 }

@@ -1,7 +1,8 @@
 import React from "react";
 import "./Home.css";
 import Article from "../Article/Article";
-import Card from "../Card/Card";
+//import Card from "../Card/Card";
+import Info from "../Info/Info";
 import Donate from "../Donate/Donate";
 import Solution from "../Solution/Solution";
 import Footer from "../Footer/Footer";
@@ -21,9 +22,9 @@ function Home() {
           <button className="home-btn home-btn-1">How to contribute</button>
         </div>
       </div>
-      <Card />
-      <Article />
+      <Info />
       <Donate />
+      <Article />
       <Solution />
       <Footer />
     </>
